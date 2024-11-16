@@ -39,3 +39,9 @@ Two files/functions with the same name MUST NOT be imported at the same time.
 All functions are globally available and invoked using parentheses syntax. e.g. a function in `example.vmm` is invoked with `example()`. Functions MAY return a variable, and MAY accept any number of comma separated arguments.
 
 Functions MAY access function arguments using parentheses without a leading function name. e.g. `(in0, in1)`
+
+## Lookup tables
+
+Lookup tables may be specified as files containing decimal numbers separated by newlines. Tables should be named using the characters `0-9a-zA-Z_` suffixed with `.vmmlk`.
+
+
